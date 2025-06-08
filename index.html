@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gaël Can - Portfolio</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- AOS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav class="navbar" data-aos="fade-down">
+  <div class="logo"><h4>GAEL CAN</h4></div>
+  <ul class="nav-links">
+    <li><a href="#about"><span data-lang="fr">À propos</span><span data-lang="en" style="display:none;">About</span></a></li>
+    <li><a href="#parcours"><span data-lang="fr">Parcours</span><span data-lang="en" style="display:none;">Journey</span></a></li>
+    <li><a href="#experience"><span data-lang="fr">Compétences</span><span data-lang="en" style="display:none;">Skills</span></a></li>
+    <li><a href="#projects"><span data-lang="fr">Projets</span><span data-lang="en" style="display:none;">Projects</span></a></li>
+    <li><a href="#moi"><span data-lang="fr">MOI</span><span data-lang="en" style="display:none;">Contact</span></a></li>
+    <li><a href="#contact"><span data-lang="fr">Contact</span><span data-lang="en" style="display:none;">Contact</span></a></li>
+  </ul>
+  <button id="langToggle" onclick="toggleLang()">EN</button>
+</nav>
+
+<header class="hero-image" data-aos="zoom-out">
+  <h1 class="main-heading">
+    <span data-lang="fr"><h1>Gaël Can</h1></span>
+    <span data-lang="en" style="display: none;">Gaël Can</span>
+  </h1>
+  <h2 class="typed-text">
+    <span data-lang="fr">Etudiant en informatique passionné de cybersécurité</span>
+    <span data-lang="en" style="display: none;">Student Cybersecurity Enthusiast</span>
+  </h2>
+</header>
+
+<section id="about" class="section" data-aos="fade-up">
+  <h2>
+    <span data-lang="fr">À propos</span>
+    <span data-lang="en" style="display: none;">About Me</span>
+  </h2>
+  <img src="images/Photo.jpg" class="portrait" alt="Portrait Gael">
+  <p class="description">
+    <span data-lang="fr">
+      Bonjour, je suis <strong>Gaël Can</strong>, étudiant passionné de la <strong>cybersécurité</strong>. 
+      Je maîtrise plusieurs langages de programmation dont <strong>HTML, CSS, JavaScript, Python, C, C++, Java, SQL</strong> ainsi que des outils comme <strong>Git, GitHub et Figma</strong>.
+      Je parle couramment <strong>français</strong>, avec un niveau en <strong>anglais scolaire</strong>.
+    </span>
+    <span data-lang="en" style="display:none;">
+      Hello, I'm <strong>Gaël Can</strong>, a passionate student of cybersecurity.
+      I work with technologies like <strong>HTML, CSS, JavaScript, Python, C, C++, Java, SQL</strong> and tools like <strong>Git, GitHub, Figma</strong>.
+      I’m fluent in <strong>French</strong>, with a school-level  in <strong>English</strong>.
+    </span>
+  </p>
+</section>
+
+<section id="parcours" class="section dark" data-aos="fade-up">
+    <h2>
+        <span data-lang="fr">Parcours</span>
+        <span data-lang="en" style="display:none;">Journey</span>
+    </h2>
+    <div class="parcours-grid">
+        <!-- Collège -->
+        <div class="parcours-card">
+            <img src="images/college.png" alt="Collège Paul Vaillant Couturier">
+            <h3>🏫 Collège</h3>
+            <p>Paul Vaillant Couturier – 2021</p>
+        </div>
+
+        <!-- Lycée -->
+        <div class="parcours-card">
+            <img src="images/lycee.jpg" alt="Lycée François Mansart">
+            <h3>🏫 Lycée Général</h3>
+            <p>François Mansart – 2024</p>
+        </div>
+
+        <!-- Diplôme -->
+        <div class="parcours-card">
+            <img src="images/bac.jpg" alt="Baccalauréat Maths/SI">
+            <h3>🎓 Bac Général</h3>
+            <p>Spécialités : Maths / Sciences de l’ingénieur</p>
+        </div>
+
+        <!-- Université -->
+        <div class="parcours-card">
+            <img src="images/universite.png" alt="IUT Orsay">
+            <h3>🏛️ Études supérieures</h3>
+            <p>IUT Orsay – 2027</p>
+        </div>
+    </div>
+
+</section>
+<section id="experience" class="section" data-aos="fade-up">
+    <h2>
+      <span data-lang="fr">Compétences & Langues</span>
+      <span data-lang="en" style="display:none;">Skills & Languages</span>
+    </h2>
+    <div class="cards skills-grid">
+      <div class="card">
+        <h3>
+          <span data-lang="fr">Développement Front-End</span>
+          <span data-lang="en" style="display:none;">Front-End Development</span>
+        </h3>
+        <ul>
+          <li>
+            <span data-lang="fr">HTML5, CSS3, JavaScript</span>
+            <span data-lang="en" style="display:none;">HTML5, CSS3, JavaScript</span>
+          </li>
+          <li>
+            <span data-lang="fr">Responsive Design</span>
+            <span data-lang="en" style="display:none;">Responsive Design</span>
+          </li>
+          <li>
+            <span data-lang="fr">React.js (bases)</span>
+            <span data-lang="en" style="display:none;">React.js (basics)</span>
+          </li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>
+          <span data-lang="fr">Développement Back-End</span>
+          <span data-lang="en" style="display:none;">Back-End Development</span>
+        </h3>
+        <ul>
+          <li>
+            <span data-lang="fr">Python, Java, C, C++</span>
+            <span data-lang="en" style="display:none;">Python, Java, C, C++</span>
+          </li>
+          <li>
+            <span data-lang="fr">SQL, bases de données relationnelles</span>
+            <span data-lang="en" style="display:none;">SQL, relational databases</span>
+          </li>
+          <li>
+            <span data-lang="fr">Raspberry Pi, Linux</span>
+            <span data-lang="en" style="display:none;">Raspberry Pi, Linux</span>
+          </li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>
+          <span data-lang="fr">Cybersécurité</span>
+          <span data-lang="en" style="display:none;">Cybersecurity</span>
+        </h3>
+        <ul>
+          <li>
+            <span data-lang="fr">Root-Me, Hack The Box</span>
+            <span data-lang="en" style="display:none;">Root-Me, Hack The Box</span>
+          </li>
+          <li>
+            <span data-lang="fr">Analyse de vulnérabilités</span>
+            <span data-lang="en" style="display:none;">Vulnerability analysis</span>
+          </li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>
+          <span data-lang="fr">Outils & Design</span>
+          <span data-lang="en" style="display:none;">Tools & Design</span>
+        </h3>
+        <ul>
+          <li>
+            <span data-lang="fr">Git, GitHub, Git CLI</span>
+            <span data-lang="en" style="display:none;">Git, GitHub, Git CLI</span>
+          </li>
+          <li>
+            <span data-lang="fr">Figma, UI/UX Prototyping</span>
+            <span data-lang="en" style="display:none;">Figma, UI/UX Prototyping</span>
+          </li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>
+          <span data-lang="fr">Langues</span>
+          <span data-lang="en" style="display:none;">Languages</span>
+        </h3>
+        <ul>
+          <li>
+            <span data-lang="fr">🇫🇷 Français – Courant</span>
+            <span data-lang="en" style="display:none;">🇫🇷 French – Fluent</span>
+          </li>
+          <li>
+            <span data-lang="fr">🇬🇧 Anglais – Niveau scolaire</span>
+            <span data-lang="en" style="display:none;">🇬🇧 English – Basic level</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+
+<div class="scrolling-logos">
+  <div class="logos-slide">
+        <!-- Logos répétés 2x pour boucle infinie -->
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+        <!-- Clone des logos pour scroll infini -->
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+
+  </div>
+</div>
+
+<section id="projects" class="section dark" data-aos="fade-up">
+    <h2>
+      <span data-lang="fr">Projets</span>
+      <span data-lang="en" style="display: none;">Projects</span>
+    </h2>
+    <div class="project-grid">
+      <div class="project">
+        <img src="images/uniclub.png" alt="Boite de nuit">
+        <div class="project-info">
+          <h3>
+            <span data-lang="fr">Site pour un parc d'attraction</span>
+            <span data-lang="en" style="display: none;">Website for a amusement park</span>
+          </h3>
+        </div>
+      </div>
+  
+      <div class="project">
+        <img src="images/Raspberry-Pi-Set-Page-Size-16k-to-4k-Thumbnail-NOWM.jpg.webp" alt="Raspberry Pi">
+        <div class="project-info">
+          <h3>
+            <span data-lang="fr">Poste dev sur Raspberry Pi</span>
+            <span data-lang="en" style="display: none;">Dev setup on Raspberry Pi</span>
+          </h3>
+        </div>
+      </div>
+  
+      <div class="project">
+        <img src="images/image.gif" alt="2D Game">
+        <div class="project-info">
+          <h3>
+            <span data-lang="fr">Jeu vidéo 2D en C++ </span>
+            <span data-lang="en" style="display: none;">2D C++ Video Game</span>
+          </h3>
+        </div>
+      </div>
+  
+      <div class="project">
+        <img src="images/baseded.png" alt="BDD Agence">
+        <div class="project-info">
+          <h3>
+            <span data-lang="fr">Base de données - Restaurant </span>
+            <span data-lang="en" style="display: none;">Database - Restaurant </span>
+          </h3>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<section id="moi" class="section dark" data-aos="fade-up">
+  <h2>
+    <span data-lang="fr">Qui suis-je ?</span>
+    <span data-lang="en" style="display: none;">Who am I?</span>
+  </h2>
+
+  <p>
+    <span data-lang="fr">
+      Je suis <strong>Gaël Can</strong>, passionné par la technologie, l'apprentissage, et le dépassement de soi. Mon parcours est guidé par la curiosité, la discipline et la volonté d'explorer les univers numériques tout en gardant un ancrage humain.
+    </span>
+    <span data-lang="en" style="display:none;">
+      I am <strong>Gaël Can</strong>, passionate about technology, learning, and pushing my limits. My journey is driven by curiosity, discipline, and the desire to explore the digital world while staying grounded.
+    </span>
+  </p>
+
+  <div class="section-transition">
+    <img src="images/course3.jpg" alt="Course à pied">
+  </div>
+
+  <h3>
+    <span data-lang="fr">🏃‍♂️ Mon Hobby : la course</span>
+    <span data-lang="en" style="display:none;">🏃‍♂️ My Hobby: Running</span>
+  </h3>
+  <p>
+    <span data-lang="fr">
+      La course à pied m'aide à rester concentré, à me libérer l'esprit, et à entretenir une bonne condition physique. C'est aussi une source de motivation et de discipline au quotidien.
+    </span>
+    <span data-lang="en" style="display:none;">
+      Running helps me stay focused, clear my mind, and maintain good physical condition. It’s also a source of daily motivation and discipline.
+    </span>
+  </p>
+
+  <div class="section-transition">
+    <img src="images/cyber.jpg" alt="Cybersécurité">
+  </div>
+
+  <h3>
+    <span data-lang="fr">🛡️ Ma Passion : la cybersécurité</span>
+    <span data-lang="en" style="display:none;">🛡️ My Passion: Cybersecurity</span>
+  </h3>
+  <p>
+    <span data-lang="fr">
+      J'adore analyser des failles, comprendre les systèmes et apprendre par moi-même via des plateformes comme <strong>Root-Me</strong> ou <strong>Hack The Box</strong>. La cybersécurité représente pour moi un domaine stratégique et stimulant.
+    </span>
+    <span data-lang="en" style="display:none;">
+      I love analyzing vulnerabilities, understanding systems, and learning independently through platforms like <strong>Root-Me</strong> or <strong>Hack The Box</strong>. Cybersecurity is a strategic and stimulating field for me.
+    </span>
+  </p>
+</section>
+
+<section id="ambition" class="section" data-aos="fade-up">
+  <h2>
+    <span data-lang="fr">Ambition</span>
+    <span data-lang="en" style="display:none;">Ambition</span>
+  </h2>
+  <p>
+      <span data-lang="fr">
+          Mon objectif professionnel est clair : avoir un métier dans le domaine de la <span class="highlight">cybersécurité</span>. Cette passion me suit depuis plusieurs années. Je me forme en autonomie via <span class="highlight">Root-Me</span> ou <span class="highlight">Hack The Box</span> et j'explore sans cesse les enjeux de la sécurité informatique.
+      </span>
+      <div class="ambition-blocs">
+          <!-- Bloc Root-Me -->
+          <a href="https://www.root-me.org" target="_blank" class="ambition-card background-root">
+              <div class="overlay-text">
+                  <h3>🧠 Root-Me</h3>
+                  <p>
+                      <span data-lang="fr">Entraînez-vous à la cybersécurité sur une plateforme réaliste.</span>
+                      <span data-lang="en" style="display:none;">Train on a realistic cybersecurity platform.</span>
+                  </p>
+              </div>
+          </a>
+
+          <!-- Bloc Hack The Box -->
+          <a href="https://www.hackthebox.com" target="_blank" class="ambition-card background-htb">
+              <div class="overlay-text">
+                  <h3>🕵️ Hack The Box</h3>
+                  <p>
+                      <span data-lang="fr">Testez vos compétences sur des machines virtuelles sécurisées.</span>
+                      <span data-lang="en" style="display:none;">Test your skills on secure virtual machines.</span>
+                  </p>
+              </div>
+          </a>
+      </div>
+      <span data-lang="en" style="display:none;">
+          My career goal is to have a job in <strong>cybersecurity </strong>. I have a strong personal interest in digital security and I train on my own using platforms like <strong>Root-Me</strong> and <strong>Hack The Box</strong>.
+      </span>
+  </p>
+</section>
+
+<section id="contact" class="section" data-aos="fade-up">
+  <h2>
+    <span data-lang="fr">Contact</span>
+    <span data-lang="en" style="display:none;">Contact</span>
+  </h2>
+  <form>
+    <input type="text" placeholder="Votre nom / Your name" required>
+    <input type="email" placeholder="Votre email / Your email" required>
+    <textarea rows="5" placeholder="Votre message / Your message" required></textarea>
+    <button type="submit">
+      <span data-lang="fr">Envoyer</span>
+      <span data-lang="en" style="display:none;">Send</span>
+    </button>
+  </form>
+</section>
+
+<footer class="footer">
+  <p>© 2025 Gael Can. <span data-lang="fr">Tous droits réservés.</span><span data-lang="en" style="display:none;">All rights reserved.</span></p>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/ga%C3%ABl-can-643b5932b/"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/aks16"><i class="fab fa-github"></i></a>
+    <a href="https://github.com/aks16" target="_blank" class="cv-button">
+      <i class="fas fa-file-download"></i>
+      <span data-lang="fr">Télécharger CV</span>
+      <span data-lang="en" style="display:none;">Download CV</span>
+    </a>
+  </div>
+</footer>
+
+<!-- AOS init -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>AOS.init();</script>
+
+<!-- Lang switcher -->
+<script>
+  let currentLang = "fr";
+
+  function toggleLang() {
+    currentLang = currentLang === "fr" ? "en" : "fr";
+    document.documentElement.lang = currentLang;
+
+    document.querySelectorAll("[data-lang]").forEach(el => {
+      el.style.display = el.getAttribute("data-lang") === currentLang ? "inline" : "none";
+    });
+
+    document.getElementById("langToggle").innerText = currentLang === "fr" ? "EN" : "FR";
+  }
+
+  window.addEventListener("DOMContentLoaded", () => {
+    toggleLang();
+    toggleLang();
+  });
+</script>
+</body>
+</html>
